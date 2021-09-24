@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="netflix.png" type="icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+    <title>Netflix</title>
+</head>
+<body>
+    
+    <main>
+        <header>
+            <h1>NET<span>FLIX</span></h1>
+            <p>Thank you for signing up at Netflix.Tell us about your self.</p>
+        </header>
+        
+        <form action="#">
+                <label  for="name" value="isim">Name</label><br><br>
+                <input type="text" name="username" id="name" placeholder="Name" required><br><br>
+                <label for="age" value="yas">Age</label><br><br>
+                <input type="number" name="age" id="age" min="18" max="65" placeholder="Age" required><br><br>
+                <label for="email" value="email">E-mail</label><br><br>
+                <input type="email" name="email" id="email" placeholder="Enter your e-mail" required><br><br>
+                <label for="name">Content Type</label><br><br>
+                <select name="conttype" id="ctype">
+                    <option value="movie">Movie</option>
+                    <option value="series" selected>Series</option>
+                </select><br><br>
+                <label for="Types">Movie Type</label><br>
+                <label for="action"><input type="checkbox" name="movie" id="comedy">Comedy</label><br>
+                <label for="action"><input type="checkbox" name="movie" id="action">Action</label><br>
+                <label for="action"><input type="checkbox" name="movie" id="romance">Romance</label><br><br>
+                <label for="Types">Gender</label><br>
+                <label for="gender"><input type="radio" name="gender" id="gmale">Male</label><br>
+                <label for="gender"><input type="radio" name="gender" id="gfemale">Female</label><br>
+                <label for="gender"><input type="radio" name="gender" id="gother">Other</label><br>
+                <p>Feed Back</p>
+                <textarea name="comment" id="com" cols="55" rows="5" placeholder="Please write any comment..."></textarea>
+                <input type="submit" value="Send" id="send">
+        </form>
+        
+    </main>
+
+    
+</body>
+</html>
