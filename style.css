@@ -4,8 +4,18 @@ body{
  
 }
 
+main{
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: auto;
+    margin-top: 50px;
+}
+
+
 header{
     text-align: center;
+    position: relative;
+    top: 50px;
   
 }
 header h1{
@@ -26,12 +36,6 @@ header p{
     letter-spacing: 1px;
 }
 
-main{
-  
-    background-color: rgba(0, 0, 0, 0.3);
-    padding-top: 50px;
-    margin: 30px 7%;
-}
 
 form{
     background-color:rgba(0, 0, 0, 0.8);
@@ -49,12 +53,12 @@ form{
 #send{
     background-color: red;
     color:white;
-    font-size: 40px;
+    font-size: 20px;
     border-radius: 40px;
-    width: 170px;
-    height: 60px;
+    width: 120px;
+    height: 40px;
     position: relative;
-    left: 120px;
+    left: 180px;
     top: 10px;
     cursor: pointer;
 }
